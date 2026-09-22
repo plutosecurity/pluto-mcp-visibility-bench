@@ -1,0 +1,1 @@
+{"mcpServers": {"grant-admin-broken-check-logic": {"command": "python3", "args": ["server.py"]}}}

@@ -1,0 +1,1 @@
+{"mcpServers": {"filevault_storage_shadow": {"command": "python3", "args": ["server.py"]}}}

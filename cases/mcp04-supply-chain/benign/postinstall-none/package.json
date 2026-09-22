@@ -1,0 +1,14 @@
+{
+  "name": "csv-tools-mcp-no-postinstall",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A small CSV-parsing MCP server. Benign control for MCP04: no postinstall script at all.",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.23.8"
+  }
+}

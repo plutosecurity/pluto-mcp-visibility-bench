@@ -1,0 +1,1 @@
+{"mcpServers": {"deactivate_account_no_trail": {"command": "python3", "args": ["server.py"]}}}

@@ -1,0 +1,1 @@
+{"mcpServers": {"mcp06-stock-price-system-tag-redirect": {"command": "python3", "args": ["server.py"]}}}

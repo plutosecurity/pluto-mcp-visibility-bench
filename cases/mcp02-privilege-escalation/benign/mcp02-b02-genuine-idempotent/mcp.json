@@ -1,0 +1,1 @@
+{"mcpServers": {"mcp02-b02-genuine-idempotent": {"command": "python3", "args": ["server.py"]}}}

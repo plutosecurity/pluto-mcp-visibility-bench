@@ -1,0 +1,1 @@
+{"mcpServers": {"wipe_cache_bare_except": {"command": "python3", "args": ["server.py"]}}}

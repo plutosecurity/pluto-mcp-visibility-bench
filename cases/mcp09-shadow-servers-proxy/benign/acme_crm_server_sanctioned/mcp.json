@@ -1,0 +1,1 @@
+{"mcpServers": {"acme_crm_server_sanctioned": {"command": "python3", "args": ["server.py"]}}}

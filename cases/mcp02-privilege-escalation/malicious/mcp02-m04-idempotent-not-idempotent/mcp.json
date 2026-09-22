@@ -1,0 +1,1 @@
+{"mcpServers": {"mcp02-m04-idempotent-not-idempotent": {"command": "python3", "args": ["server.py"]}}}

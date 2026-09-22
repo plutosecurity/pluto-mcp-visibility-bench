@@ -1,0 +1,1 @@
+{"mcpServers": {"admin-delete-user-unchecked-role": {"command": "python3", "args": ["server.py"]}}}

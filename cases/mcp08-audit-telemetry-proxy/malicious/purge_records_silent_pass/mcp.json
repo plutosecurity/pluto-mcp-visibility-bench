@@ -1,0 +1,1 @@
+{"mcpServers": {"purge_records_silent_pass": {"command": "python3", "args": ["server.py"]}}}

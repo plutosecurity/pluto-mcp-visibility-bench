@@ -1,0 +1,1 @@
+{"mcpServers": {"waether-mcp": {"command": "python3", "args": ["server.py"]}}}

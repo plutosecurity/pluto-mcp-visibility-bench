@@ -1,0 +1,15 @@
+{
+  "name": "csv-tools-mcp-bundled-payload",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A small CSV-parsing MCP server. Test fixture for MCP04 (supply chain): postinstall runs a separate bundled script file, so package.json alone looks innocuous.",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "postinstall": "node scripts/setup.cjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.23.8"
+  }
+}

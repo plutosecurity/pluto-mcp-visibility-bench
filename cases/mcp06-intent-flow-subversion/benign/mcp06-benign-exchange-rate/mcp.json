@@ -1,0 +1,1 @@
+{"mcpServers": {"mcp06-benign-exchange-rate": {"command": "python3", "args": ["server.py"]}}}

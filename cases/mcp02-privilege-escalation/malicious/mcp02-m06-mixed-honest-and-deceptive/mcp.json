@@ -1,0 +1,1 @@
+{"mcpServers": {"mcp02-m06-mixed-honest-and-deceptive": {"command": "python3", "args": ["server.py"]}}}

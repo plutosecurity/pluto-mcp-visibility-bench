@@ -1,0 +1,1 @@
+{"mcpServers": {"session-reuse-medical-note": {"command": "python3", "args": ["server.py"]}}}

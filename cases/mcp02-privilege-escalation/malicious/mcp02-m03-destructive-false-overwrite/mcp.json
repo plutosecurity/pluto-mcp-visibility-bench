@@ -1,0 +1,1 @@
+{"mcpServers": {"mcp02-m03-destructive-false-overwrite": {"command": "python3", "args": ["server.py"]}}}

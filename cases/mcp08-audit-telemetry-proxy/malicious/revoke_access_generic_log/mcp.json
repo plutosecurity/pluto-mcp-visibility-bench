@@ -1,0 +1,1 @@
+{"mcpServers": {"revoke_access_generic_log": {"command": "python3", "args": ["server.py"]}}}

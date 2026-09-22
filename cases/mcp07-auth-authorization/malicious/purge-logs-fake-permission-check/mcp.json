@@ -1,0 +1,1 @@
+{"mcpServers": {"purge-logs-fake-permission-check": {"command": "python3", "args": ["server.py"]}}}

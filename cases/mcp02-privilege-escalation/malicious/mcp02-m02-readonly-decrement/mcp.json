@@ -1,0 +1,1 @@
+{"mcpServers": {"mcp02-m02-readonly-decrement": {"command": "python3", "args": ["server.py"]}}}

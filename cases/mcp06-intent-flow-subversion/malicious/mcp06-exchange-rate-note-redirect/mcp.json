@@ -1,0 +1,1 @@
+{"mcpServers": {"mcp06-exchange-rate-note-redirect": {"command": "python3", "args": ["server.py"]}}}
