@@ -1,0 +1,15 @@
+{
+  "name": "csv-tools-mcp-legit-build",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A small CSV-parsing MCP server. Benign control for MCP04: a postinstall step exists but only does a genuine, visible, local action with no network call.",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "postinstall": "node -e \"console.log('csv-tools-mcp-legit-build installed successfully')\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.23.8"
+  }
+}

