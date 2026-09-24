@@ -17,12 +17,11 @@ authentication, lack of audit/telemetry, shadow servers, and context
 over-sharing — were untested by anything publicly available at the time
 this was built. This dataset fills that gap.
 
-It was built as part of a larger study of MCP security scanners, whose
-main finding is that a scanner's *architecture* limits what evidence it
-can ever see, independent of how good its detection logic is. This
-dataset was designed specifically to make that distinction checkable:
-every case states which scanner architectures could possibly see its
-planted mechanism, before any scanner is run against it.
+Every case also states which MCP evidence location its planted mechanism
+lives in (description, schema, source, runtime response, multi-call
+state, server identity, or install-time script) — so it's checkable
+whether a given scanner architecture could ever see it, before any
+scanner is run.
 
 ## What's here
 
@@ -77,25 +76,6 @@ and MSB in the first place:
 4. **No overlap with MCPTox, MCPSecBench, MSB**, or other MCP security
    benchmarks — each category was checked against existing public
    datasets before being added.
-
-## Results: five scanners tested against this dataset
-
-We ran five real MCP security scanners (Cisco mcp-scanner, Aira mcp-armor,
-sentinel-scan-cli, NVIDIA SkillSpector, Snyk Agent Scan) against all 60
-cases. Full results, including per-case findings, are in
-[`docs/RESULTS.md`](docs/RESULTS.md).
-
-Headline result: **across all five scanners and all 41 malicious cases,
-not one finding correctly and specifically identified the planted
-mechanism.** Every scanner produced some loose, related signal, but each
-one was either a coarse capability judgment that fires identically on the
-matched benign counterpart, or a hit on an incidental detail rather than
-the actual planted mechanism. One pattern repeated across three
-independent scanners using three different detection techniques: a
-hidden tool literally named with the word "exfil" was caught, while a
-functionally identical hidden tool named more blandly was missed — a
-direct demonstration of phrasing-sensitive detection, not just visibility
-limits.
 
 ## Using this dataset
 

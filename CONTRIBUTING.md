@@ -30,5 +30,4 @@ independently verifiable by inspection, not just plausible.
 
 If you run a scanner against this dataset, we'd like to hear about it —
 open an issue with the scanner name/version and what it did or didn't
-catch, ideally with the raw output. Findings that contradict or refine
-anything in `docs/RESULTS.md` are especially welcome.
+catch against `ground_truth.json`, ideally with the raw output.
