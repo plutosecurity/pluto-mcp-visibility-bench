@@ -1,6 +1,6 @@
 # pluto-mcp-visibility-bench
 
-A small, hand-built benchmark of 60 MCP (Model Context Protocol) test
+benchmark of 60 MCP (Model Context Protocol) test
 servers, covering 8 categories from the OWASP MCP Top 10 that existing
 public MCP security benchmarks do not test.
 
